@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+
+    <!-- FAVICON - put a letter icon here-->
+    <link rel="icon" type="image/png" href="images/a.png">
+
+    <!-- Bootstrap 5 CDN links-->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <!-- Custom File's  Link-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css\responsive-style.css">
+
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+
+
+    <!-- Navbar section-->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/a.png" class="img-fluid" alt="A symbol" height="40" width="45">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fa-solid fa-bars-staggered navbar-toggler-icon"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item mt-3 mt-lg-0">
+                            <a class="main-btn" href="#contact">Hire me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar section exit-->
+
+    <!-- Banner section-->
+    <section id="home" class="banner_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center text-md-start">
+                    <h6> HI THERE!</h6>
+                    <h1>I'm Anusha B R <br><span>Software Developer</span><br> based in India. </h1>
+                    <div class="mt-4">
+                        <a class="main-btn" href="resume\ANUSHA's Resume.pdf"> Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner section exit-->
+
+    <!-- About section-->
+    <section id="about" class="about_wrapper">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <img src="images/photo.jpeg" class="img-fluid rounded-3" alt="About-us">
+                </div>
+                <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+                    <div class="my-3 mb-lg-0">
+                        <span class="subtitle">Details About Me</span>
+                        <h2>About Me</h2>
+                        <p>Soon-to-be computer science graduate eager to secure a challenging role in a reputable
+                            organization to utilize my skills for the growth of the organization as well as to enhance
+                            my knowledge about new and emerging trends in the sector.</p>
+                    </div>
+                    <div class="pt-4">
+                        <ul class="nav nav-pills justify-content-center justify-content-lg-between mb-3" id="pills-tab"
+                            role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-education-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-education" type="button" role="tab"
+                                    aria-controls="pills-education" aria-selected="true">Education</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-Award-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-Award" type="button" role="tab" aria-controls="pills-Award"
+                                    aria-selected="false">Achievments</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-experience-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-experience" type="button" role="tab"
+                                    aria-controls="pills-experience" aria-selected="false">Experience</button>
+                            </li>
+
+                        </ul>
+
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-education" role="tabpanel"
+                                aria-labelledby="pills-education-tab" tabindex="0">
+                                <ul class="text-start ps-0">
+                                    <li>
+                                        <!-- Study icons created by Good Ware - Flaticon -->
+                                        <a href="#" title="study icons">
+                                            B.E in CSE - <span> Dayananda Sagar Academy of Technology and management,
+                                                Bengaluru</span> <br>2019-23
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            12th Standard - Sharada PU College, Managlore <br> 2018-19
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            10th Standard - B P Indian High School, Bengaluru <br> 2016-17
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="pills-Award" role="tabpanel"
+                                aria-labelledby="pills-Award-tab" tabindex="0">
+                                <ul class="text-start ps-0">
+                                    <li>
+                                        <a href="#">
+                                            Secured 5 star ranking in Java Programming - HackerRank
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Secured 3 star ranking in C Programming - HackerRank
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Solved 150+ DSA questions on various coding platforms
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="pills-experience" role="tabpanel"
+                                aria-labelledby="pills-experience-tab" tabindex="0">
+                                <ul class="text-start ps-0">
+                                    <li>
+                                        <a href="#">
+                                            Nothing Here Yet!
+                                        </a>
+                                    </li>
+                                    <!-- <li>
+                                            <a href="#">
+                                                Award1<span>-Winner</span>2019-2022
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Award1<span>-Winner</span>2019-2022
+                                            </a>
+                                        </li> -->
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- About section exit-->
+
+    <!-- Skills section-->
+    <section id="services" class="services_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-4">
+                    <span class="subtitle">What I can do for you</span>
+                    <h2> My Skills Are</h2>
+                </div>
+
+            </div>
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="images\services\java.png" width="60px class=" img-fluid mb-4" alt="skills">
+                            <h3>Java Programming</h3>
+                            <!-- <p>I am proficient in Java Programming.</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="images/services/browser.png" width="60px class=" img-fluid mb-4" alt="skills">
+                            <h3>Web Designing</h3>
+                            <!-- <p>I have decent knowledge of Web Designing using HTML, CSS, JavaScript.</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="images\services\phone.png" width="60px class=" img-fluid mb-4" alt="skills">
+                            <h3>Android Development</h3>
+                            <!-- <p>I have basic knowledge in development of android applications.</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="images\services\key.png" width="60px class=" img-fluid mb-4" alt="skills">
+                            <h3>Problem Solving</h3>
+                            <!-- <p>Good problem solving ability.</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="images\services\database.png" width="60px class=" img-fluid mb-4" alt="skills">
+                            <h3>Database </h3>
+                            <!-- <p>I am familiar with mySql and Firebase database.</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="images\services\syntax.png" width="60px class=" img-fluid mb-4" alt="skills">
+                            <h3>Programming language</h3>
+                            <!-- <p>I also have basic knowledge in C and Python.</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills section exit-->
+
+    <!-- Projects section-->
+    <section id="projects" class="projects_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-4">
+                    <span class="subtitle">My Projects</span>
+                    <h2>My Latest Projects</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card  md-6 mb-4">
+                    <div class="card-header">
+                        <img src="./images/portfolio/chat.png" width="50px" alt="chat logo">
+                        Android app - Ping Me!
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Ping Me Chat App (05/2022 - 06/2022)</h5>
+                        <p class="card-text">
+                            Used Java, Android Studio, Firebase, XML.
+                            Fully functional chatting app with features like message encryption, authentication,add
+                            contacts,
+                            send/receive messages, edit profile.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="card  md-6 mb-4">
+                    <div class="card-header">
+                        <img src="./images/portfolio/journey.png" width="50px" alt="travel logo">
+                        DBMS - Tours and Travels Management System Website
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Tours and Travel Management System (11/2021 - 12/2021)</h5>
+                        <p class="card-text">Technology used - HTML, CSS, PHP, MySQL,JavaScript.
+                            Used embeded CSS, Bootstrap and JavaScript for UI design.
+                            This project is an implementation of a general Tours and Travel website.
+                            Helps the customers to send enquiry about tours packages.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Projects section exit-->
+
+
+
+    <!-- Contact section-->
+    <section id="contact" class="contact_wrapper">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
+                    <span class="subtitle">Send me a message</span>
+                    <h2>Contact Me </h2>
+                    <div class="row call_details mb-4">
+                        <label class="col-sm-3 col-lg-4">Call me directly:</label>
+
+                        <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                            <a href="javascript:void(0)">+91 888 436 2186</a>
+                        </div>
+
+                        <label class="col-sm-3 col-lg-4">Contact Email:</label>
+
+                        <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                            <a href="mailto:example@gamil.com">anushabr3@gmail.com</a>
+                        </div>
+
+
+                    </div>
+                    <form action="" onsubmit="sendEmail()" method="post" class="contact-form">
+                        <div class="mb-4">
+                            <input type="text" id="name" class="form-control" placeholder="Your Name...."
+                                autocomplete="off">
+                        </div>
+                        <div class="mb-4">
+                            <input type="number" class="form-control" placeholder="Your Phone...." autocomplete="off">
+                        </div>
+                        <div class="mb-4">
+                            <input type="email" id="email" class="form-control" placeholder="Your Email...."
+                                autocomplete="off">
+                        </div>
+                        <div class="mb-4">
+                            <textarea name="" id="message" cols="40" rows="4" placeholder="Write a message...."
+                                autocomplete="off">
+
+                            </textarea>
+                        </div>
+                        <button type="submit" id="btn" class="main-btn">Submit</button>
+                    </form>
+                </div>
+                <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.344051813514!2d77.39411161490673!3d13.077368190786553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae256c175fe919%3A0x2439379cfd1f97b7!2sVijaya%20Vittala%20Nagar%2C%20Bengaluru%2C%20Karnataka%20562123!5e0!3m2!1sen!2sin!4v1663866553469!5m2!1sen!2sin"
+                        width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact section exit-->
+
+    <!-- Footer section-->
+    <section id="contact" class="foote_wrapper mt-3 mt-md-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-6 text-center text-md-start">
+                    <div class="footer-logo mb-3 mb-md-0">
+                        <img src="./images/a.png" alt="logo" width="40px" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <ul
+                        class="list-unstyled d-flex justify-content-center justify content-md-end justify-content-lg-center social-icon mb-3 mb-md-0">
+                        <li>
+                            <a href="https://www.linkedin.com/in/anu3/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://leetcode.com/anushabr3/">
+                                <iconify-icon icon="simple-icons:leetcode"></iconify-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://auth.geeksforgeeks.org/user/anushabr">
+                                <iconify-icon icon="simple-icons:geeksforgeeks"></iconify-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Anusha32">
+                                <iconify-icon icon="akar-icons:github-fill"></iconify-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section exit-->
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        //send email
+
+
+        const form = document.querySelector(".contact-form");
+        form.addEventListener("submit", e => {
+            e.preventDefault();
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+
+
+
+
+            document.querySelector(".contact-form").reset();
+
+            sendEmail(name, email);
+        })
+        function sendEmail(name, email) {
+            Email.send({
+
+                Host: "smtp.elasticemail.com",
+                Username: "anushabr3@gmail.com",
+                Password: "7E08C712DAC321476973342A354F24744787",
+                To: "anushabr3@gmail.com",
+                From:email,
+                Subject: `${name} Just messaged you from the website form`,
+                Body: `Name: ${name} <br> Email: ${email} <br>`,
+            }).then((success) => {
+
+                alert("message sent successfully. Please check the spam folder in your mail.");
+            }).catch((error) => {
+
+                alert("error sending message");
+            })
+        }
+    </script>
+
+
+</body>
+
+</html>
