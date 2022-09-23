@@ -321,6 +321,19 @@ button{
     color: var(--text-gray);
 }
 
+.contact-map{
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+   overflow: hidden;
+}
+.contact-map iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
 /* 6 Projects */
 
 .projects_wrapper .card{
